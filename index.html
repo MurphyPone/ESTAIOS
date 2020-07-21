@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>ESTAIOS</title>
+  <meta name="Escape From The Aliens in Outer Space Assistant" content="Escape From The Aliens in Outer Space Assistant">
+  <meta name="Peter Murphy" content="ESTAIOS">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">  <link rel="stylesheet" href="styles.css">
+  <script src="main.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <button id="btn-select" class="btn lg" onclick="selectPlayer()">Choose Side</button>
+            <div style="display: inline;">
+                <a id="player"></a>
+                <button id="show-hide" class="btn" onclick="toggleStatus()">show/hide</button>
+            </div>
+            <button class="btn lg" onclick="genTile()">Shaded Tile</button>
+            <div class="txt" style="display: inline; height: 3em">
+                <div style="float: left;">
+                    <h1>Key</h1>
+                    <div>
+                        <li>white: </li>
+                        <li>green: </li>
+                        <li>red: </li>
+                    </div>
+                </div>
+                <div id="tile" style="float: right;">
+                    <h1>green</h1>
+                <div>
+            </div>
+        </div>
+    </body>
+</html>

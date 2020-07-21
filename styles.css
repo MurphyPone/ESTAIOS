@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+.container {
+    align-items: center;
+}
+
+.btn {
+    background: #474747;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    padding: 0.2em;
+    margin: 0.2em;
+    height: 2em;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+.btn.lg {
+    display: block;
+    width: 100%;
+}
+
+.txt {
+
+}
+
+#player {
+    display: inline;
+    text-align: center;
+    height: 2em;
+}
+
+#show-hide {
+    display: none;
+    background: white;
+    color:black;
+}
+
+#tile {
+    border: black;
+    background: gray;
+    display: inline;
+}
